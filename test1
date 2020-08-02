@@ -1,0 +1,16 @@
+<?php
+
+$str = 'iAmStr';
+$int = 1;
+$float = 1.6;
+define('PI', '3.14');
+
+echo $str .' '.
+$int .' '.
+$float .' '.
+PI .' '.
+decoct(157) .' '.
+dechex(157);
+
+
+
